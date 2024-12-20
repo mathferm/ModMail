@@ -16,7 +16,7 @@ read MAIN_GUILD_ID
 echo "Please, indicate what your base URL is including the port (for example: http://localhost:3000)"
 read LOGS_URL
 
-echo "Please, choose a language for the bot (en-US, es-ES, nl-NL, pt-BR, uk)."
+echo "Please, choose a language for the bot (en-US, es-ES, nl-NL, pt-BR, uk, fr-FR)."
 read LANG
 
 echo "BOT_TOKEN=$BOT_TOKEN
