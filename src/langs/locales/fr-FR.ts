@@ -11,7 +11,7 @@ export default {
 	commands: {
 		unsubscribe: {
 			success: 'Vous vous êtes désabonné de ce fil.',
-			notSubscribed: 'Vous n'êtes pas abonné à ce fil.',
+			notSubscribed: 'Vous n\'êtes pas abonné à ce fil.',
 			error: 'Il y a eu une erreur en vous desabonnant de ce fil.',
 		},
 		title: {
@@ -49,7 +49,7 @@ export default {
 		ping: 'Mon ping est de `%sms`.',
 		nsfw: {
 			enabled: 'Ce fil est maintenant maqué comme NSFW.',
-			disabled: 'Ce fil n'est maintenant plus marqué comme NSFW.',
+			disabled: 'Ce fil n\'est maintenant plus marqué comme NSFW.',
 			enableError: 'Il y a eu une erreur en marquand ce fil comme NSFW.',
 			disableError: 'Il y a eu une erreur en enlevant le caractère NSFW de ce fil.'
 		},
@@ -99,7 +99,7 @@ export default {
 			closerError: 'Il y a eu une erreur en programmant la fermeture du fil.',
 			closerUpdateError: 'Il y a eu une erreur en modifiant le temps de fermeture du thread.',
 			title: 'Fermeture prévue.',
-			description: 'Ce fil sera fermé le `%s` si aucune réponse n'est envoyée.'
+			description: 'Ce fil sera fermé le `%s` si aucune réponse n\'est envoyée.'
 		},
 		category: {
 			noCategory: 'vous devez fournir un nom de catégorie.',
@@ -117,7 +117,7 @@ export default {
 		blacklist: {
 			noOption: 'Vous devez fournir une option (`add` ou `remove`).',
 			noUser: 'Vous devez fournir une mention ou un ID.',
-			notFound: 'Je n\'ai pas pu trouver d'utilisateur avec cet ID.',
+			notFound: 'Je n\'ai pas pu trouver d\'utilisateur avec cet ID.',
 			alreadyBlacklisted: 'Cet utilisateur est déjà blacklisté.',
 			notBlacklisted: 'Cet utilisateur n\'est pas blacklisté.',
 			blacklisted: 'Cet utilisateur a bien été blacklisté.',
@@ -133,12 +133,12 @@ export default {
 			alreadyExists: 'Une abbréviation avec ce nom existe déjà.',
 			created: 'L\'abbréviation a bien été créée',
 			createdError: 'Il y a eu une erreur en crééant l\abbréviation.',
-			unknownAlias: 'Je n\'ai pas pu trouver d'abbréviation avec ce nom.',
+			unknownAlias: 'Je n\'ai pas pu trouver d\'abbréviation avec ce nom.',
 			deleted: 'L\'abbréviation a bien été supprimée.',
 			deletedError: 'Il y eu une erreur en mettant à jour l\'abbréviation.',
 		},
 		permission: {
-			noLevel: 'S\'il vous plaît, selectionnez le niveau d'autorisation de la commande.\nNiveau: **regular**, **support** et **admin**.\nUsage: %ppermission {levelName/commandName} {add/remove} {role ID/user ID}',
+			noLevel: 'S\'il vous plaît, selectionnez le niveau d\'autorisation de la commande.\nNiveau: **regular**, **support** et **admin**.\nUsage: %ppermission {levelName/commandName} {add/remove} {role ID/user ID}',
 			noOption: 'Vous devez fournir une option (`add` ou `remove`).',
 			noID: 'Vous devez fournir un role ou un id d\'username.',
 			alreadyExists: 'Ce role ou cet utilisateur a déjà ce niveau de permission.',
@@ -290,7 +290,7 @@ export default {
 
 	errors: {
 		categoryCreate: 'Une catégorie n\'a pas pu être créée. Configuration annulée.',
-		configAdd: 'La configuration n'\a pas pu être ajoutée à la database. Configuration annulée.',
+		configAdd: 'La configuration n\'a pas pu être ajoutée à la database. Configuration annulée.',
 		accountAge: 'Votre compte n\'est pas assez vieu pour contacter le staff.',
 		serverAge: 'Votre compte n\'est pas sur le serveur depuis assez longtemps pour contacter le staff.',
 		unknown: 'Une erreur inconnue s\'est produite. Essayez plus tard.',
